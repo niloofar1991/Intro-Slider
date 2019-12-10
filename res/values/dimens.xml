@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgSize_intro">240dp</dimen>
+    <dimen name="title_font">28sp</dimen>
+    <dimen name="desc_font">20sp</dimen>
+    <dimen name="marginStart_desc">16dp</dimen>
+    <dimen name="marginEnd_desc">16dp</dimen>
+</resources>

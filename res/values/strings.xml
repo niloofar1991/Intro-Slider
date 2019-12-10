@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IntroSliderProject</string>
+
+    <string name="INTRO_PREF">welcomeKit</string>
+    <string name="INTRO_IS_SHOWN">is shown</string>
+
+<!--    INTROSLIDER CLASS INFO  -->
+     <string name="BTN_NEXT">next</string>
+     <string name="BTN_SKIP">skip</string>
+     <string name="BTN_START">start</string>
+     <string name="BTN_BACK">back</string>
+
+<!--      TITLES of SLIDERS  -->
+    <string name="title_intro_slide1">welcome guys!</string>
+    <string name="title_intro_slide2">create your album</string>
+
+<!--     DESCRIPTIONS of SLIDERS -->
+    <string name="desc_intro_slide1">we are truly grateful to you for choosing us as giving us the opportunity to grow.</string>
+    <string name="desc_intro_slide2">upload your photos and design them then leave the rest to us</string>
+
+</resources>

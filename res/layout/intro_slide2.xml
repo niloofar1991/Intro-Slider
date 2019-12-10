@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/imgSize_intro"
+        android:layout_height="@dimen/imgSize_intro"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slide2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_slide1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/mistral"
+        android:text="@string/title_intro_slide2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_font" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/marginStart_desc"
+        android:layout_marginEnd="@dimen/marginEnd_desc"
+        android:fontFamily="@font/quillscriptnormal"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="@string/desc_intro_slide2"
+        android:textColor="@color/lightGray"
+        android:textSize="@dimen/desc_font" />
+
+</LinearLayout>
